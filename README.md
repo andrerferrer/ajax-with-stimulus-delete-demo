@@ -6,7 +6,10 @@ This is a demo to show-case how to implement AJAX in rails  using the [`stimulus
 
 ## What needs to be done?
 
-### 1. Add `stimulus.js`
+### 1. Add `stimulus.js` to the rails app with webpacker
+```
+rails webpacker:install:stimulus
+```
 
 
 And we're good to go 🤓
