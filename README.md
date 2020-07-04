@@ -11,7 +11,7 @@ This is a demo to show-case how to implement AJAX in rails  using the [`stimulus
 rails webpacker:install:stimulus
 ```
 
-### 2. 
+### 2.  Handle it the stimulus way
 
 
 
