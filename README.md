@@ -13,6 +13,12 @@ rails webpacker:install:stimulus
 
 ### 2.  Handle it the stimulus way
 
+- Create the controller
+app/javascript/controller
+
+- Add data-controller to the HTML element
+app/views/restaurants/index.html.erb
+
 
 
 And we're good to go 🤓
