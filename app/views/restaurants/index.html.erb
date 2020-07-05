@@ -4,7 +4,7 @@
 
 <ul>
   <% @restaurants.each do |restaurant| %>
-    <li id="restaurant-<%= restaurant.id %>">
+    <li id="restaurant-<%= restaurant.id %>" data-controller="restaurants">
       <%= link_to restaurant.name, restaurant_path(restaurant) %>
       <%= link_to '❌', restaurant, method: :delete, remote: true, data: { confirm: "Are you sure?" } %>
     </li>
