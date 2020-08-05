@@ -61,11 +61,7 @@ app/views/restaurants/index.html.erb
             action: 'click->restaurants#delete' } %>
 ```
 
-And we're good to go. 🤓
-
-Good Luck and Have Fun.
-
-Stimulus in a nutshell:
+### 3. Stimulus in a nutshell:
 
 - In the HTML vs Javascript
 
@@ -82,3 +78,7 @@ Stimulus in a nutshell:
   `data-target="controller-name.targetName"`
   
   `data-action="event->controller-name#actionName"`
+
+And we're good to go. 🤓
+
+Good Luck and Have Fun.
