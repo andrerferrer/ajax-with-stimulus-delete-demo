@@ -47,7 +47,9 @@ export default class extends Controller {
 }
 ```
 
+
 - Add data-controller to the HTML element
+
 app/views/restaurants/index.html.erb
 ```ruby
 <%= link_to '❌', 
@@ -62,3 +64,21 @@ app/views/restaurants/index.html.erb
 And we're good to go. 🤓
 
 Good Luck and Have Fun.
+
+Stimulus in a nutshell:
+
+- In the HTML vs Javascript
+
+  `data-controller` envolves it all.
+  
+  `data-target` is the `querySelector` (that we would use in JS).
+  
+  `data-action` is the `addEventListener` (that we would use in JS).
+
+- The Syntax
+
+  `data-controller="controller-name"`
+  
+  `data-target="controller-name.targetName"`
+  
+  `data-action="event->controller-name#actionName"`
