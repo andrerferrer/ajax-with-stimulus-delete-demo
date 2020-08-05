@@ -20,10 +20,6 @@ class RestaurantsController < ApplicationController
   def destroy
     set_restaurant
     @restaurant.destroy
-    respond_to do |format|
-      format.html { redirect_to :index }
-      format.js
-    end
   end
 
   private
