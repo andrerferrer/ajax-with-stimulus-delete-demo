@@ -16,7 +16,7 @@ rails webpacker:install:stimulus
 [Check the stimulus handbook for more.](https://stimulusjs.org/handbook/introduction)
 
 - Create the controller
-app/javascript/controller
+app/javascript/controller/restaurants_controller.js
 
 ```js
 import { Controller } from "stimulus";
