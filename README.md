@@ -75,7 +75,7 @@ app/views/restaurants/index.html.erb
 
   `data-controller="controller-name"`
   
-  `data-target="controller-name.targetName"`
+  `data-controller-target="targetName"`
   
   `data-action="event->controller-name#actionName"`
 
